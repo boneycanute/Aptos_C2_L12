@@ -1,0 +1,10 @@
+[package]
+name = 'calculator_l12'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
+
+[addresses]
+calculator_l12 = "0x12dc554c638b28541a7dd0a2ae88eb7d602face308215f41ea1ae5b4e6ebbcc4"
+std = "0x1"
